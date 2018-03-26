@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/ScrollView">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/large_gap"
+        android:minHeight="500dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/RBquestion"
+            style="@style/Questions"
+            android:layout_width="345dp"
+            android:layout_height="150dp"
+            android:layout_margin="@dimen/small_gap"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_weight="5"
+            android:text=""
+            app:layout_constraintBottom_toTopOf="@+id/radioGroup"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.347"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <com.example.sophie.generalknowledgequiz.ToggleButtonGroupTableLayout
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="124dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <TableRow>
+
+                <RadioButton
+                    android:id="@+id/RBanswer1"
+                    style="@style/PlainText"
+                    android:layout_width="165dp"
+                    android:layout_height="80dp" />
+
+                <RadioButton
+                    android:id="@+id/RBanswer2"
+                    style="@style/PlainText"
+                    android:layout_width="165dp"
+                    android:layout_height="80dp" />
+        </TableRow>
+            <TableRow>
+                <RadioButton
+                    android:id="@+id/RBanswer3"
+                    style="@style/PlainText"
+                    android:layout_width="165dp"
+                    android:layout_height="80dp" />
+
+                <RadioButton
+                    android:id="@+id/RBanswer4"
+                    style="@style/PlainText"
+                    android:layout_width="165dp"
+                    android:layout_height="80dp" />
+        </TableRow>
+
+        </com.example.sophie.generalknowledgequiz.ToggleButtonGroupTableLayout>
+
+
+
+
+
+        <Button
+            android:id="@+id/submit_btn3"
+            style="@style/Button"
+            android:layout_width="87dp"
+            android:layout_height="44dp"
+            android:layout_marginBottom="48dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:onClick="submit"
+            android:text="@string/submit"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.857"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+    </android.support.constraint.ConstraintLayout>
+
+
+
+</ScrollView>

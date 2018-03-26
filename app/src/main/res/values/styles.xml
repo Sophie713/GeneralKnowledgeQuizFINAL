@@ -1,0 +1,59 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ScrollView">
+       <!-- <item name="android:layout_weight">match_parent</item>
+        <item name="android:layout_height">match_parent</item> -->
+        <item name="android:background">@drawable/background</item>
+
+    </style>
+
+    <style name="PlainText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/small_gap</item>
+        <item name="android:textSize">@dimen/small_text</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:fontFamily">monospace</item>
+    </style>
+
+    <style name="Questions">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/small_gap</item>
+        <item name="android:textSize">@dimen/medium_text</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:fontFamily">monospace</item>
+    </style>
+
+    <style name="Heading">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/medium_gap</item>
+        <item name="android:textSize">@dimen/large_text</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:gravity">center</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+    </style>
+
+    <style name="Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/small_text</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:layout_gravity">end</item>
+        <item name="android:layout_margin">@dimen/large_gap</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+</resources>

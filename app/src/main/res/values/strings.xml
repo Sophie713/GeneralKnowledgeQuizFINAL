@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">General Knowledge Quiz</string>
+    <!---->
+    <string name="welcome">Welcome to the general knowledge quiz</string>
+    <string name="user_name">What\'s your name?</string>
+    <!--buttons-->
+    <string name="start">start</string>
+    <string name="submit">submit</string>
+    <string name="back">back</string>
+    <!--RB4-->
+    <string name="question_1">Who wrote Christmas Carol?</string>
+    <string name="writ1">J Irving</string>
+    <string name="writ2">C Dickens</string>
+    <string name="writ3">E Hemingway</string>
+    <string name="writ4">Santa Claus</string>
+    <!--ET-->
+    <string name="question_2">Complete the following quote:\nVeni, ____, vici.</string>
+    <!--ET-->
+    <string name="question_3">What year did WWII end?</string>
+    <!--RB2-->
+    <string name="question_4">Black tea and Green tea are from a different plant.</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="sometimes">Sometimes</string>
+    <!--RB4-->
+    <string name="question_5">Who directed Sweeney Todd?</string>
+    <string name="dir1">S Spielberg</string>
+    <string name="dir2">P Almodovar</string>
+    <string name="dir3">A Cuaron</string>
+    <string name="dir4">T Burton</string>
+    <!--RB4-->
+    <string name="question_6">Who painted Lady with an Ermine?</string>
+    <string name="paint1">L DaVinci</string>
+    <string name="paint2">P Picasso</string>
+    <string name="paint3">V Van Gogh</string>
+    <string name="paint4">C Monet</string>
+    <!--ET-->
+    <string name="question_7">What is the capital city of Australia?</string>
+    <!--CB-->
+    <string name="question_8">Where was Einstein born?</string>
+    <string name="enst1">Ulm</string>
+    <string name="enst2">Austria</string>
+    <string name="enst3">Leoben</string>
+    <string name="enst4">Germany</string>
+    <!--ET-->
+    <string name="question_9">Who discovered penicillin?\n(Only last name)</string>
+    <!--CB-->
+    <string name="question_10">Which of these are NOT one of V. Satir\'s Family Roles?</string>
+    <string name="famNam1">Computer</string>
+    <string name="famNam2">Placator</string>
+    <string name="famNam3">Boss</string>
+    <string name="famNam4">Star</string>
+    <!--end-->
+    <string name="top">Congratulations %2$s! Your score is %1$s\/12.</string>
+    <string name="medium">Quite good %2$s. Your score is %1$s\/12.</string>
+    <string name="low">It could have been better, %2$s. Your score is %1$s\/12.</string>
+    <!---->
+
+
+    <string name="hint">Write your answer without gaps.</string>
+    <!---->
+</resources>
